@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: black;
+    background: #000;
+    color: white;
+}
+body{
+    background-color: #000;
 }
 
 #box1{
@@ -16,3 +20,36 @@
     width: 200px;
     background: red;
 }
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.hero-inside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+h2{
+    color: white;
+    font-size: 80px;
+}
+
+img{
+    height: 300px;
+    width:300px;
+    object-fit: cover;
+}
+
+p{
+    font-size: 20px;
+    padding-top: 40px;
+    /* font-style: italic; */
+    color: white;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
